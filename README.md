@@ -27,3 +27,24 @@ Attached all the three files with the output screenshot.
 **Troubleshooting Commands:**
 1. docker logs <container_id>
 2. docker inspect <container_id>
+
+
+**2. Run the Container with Environment Variable**
+
+Updated docker2file, app2.py and output2 screenshot is attached
+    docker run -d -p 5000:5000 -e USER_NAME=Kajal flask-app
+
+    Now for output run below 02 links
+    http://localhost:5000
+    http://localhost:5000/about
+
+    
+**3. Start the App with Compose**
+
+        docker-compose up --build -d
+        docker-compose down
+        Go to above links and check output
+
+
+
+
