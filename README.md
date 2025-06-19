@@ -26,4 +26,4 @@ Attached all the three files with the output screenshot.
 
 **Troubleshooting Commands:**
 1. docker logs <container_id>
-2. docker inspect <conatiner_id>
+2. docker inspect <container_id>
